@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .right-container {
+    width: 100%;
+    margin: auto;
+    padding: 2rem;
+
+    .PhoneInputCountry {
+      border: 1px solid gray;
+      padding: 1rem;
+      border-radius: 4px;
+    }
+
+    .PhoneInputInput {
+      padding: 4px 0 5px;
+      border: 1px solid gray;
+      background: none;
+      height: 1.4375em;
+      margin: 0;
+      display: block;
+      min-width: 0;
+      width: 100%;
+      padding: 16.5px 14px;
+      border-radius: 4px;
+    }
+
+    .form {
+      margin: auto;
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .right-container {
+      padding: 1rem;
+
+      .form {
+        width: 60%;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .right-container {
+      padding: 0.2rem;
+      .form {
+        width: 90%;
+      }
+    }
+  }
+}

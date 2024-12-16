@@ -1,0 +1,44 @@
+.container {
+  .otp-container {
+    padding: 2rem;
+    margin: auto;
+
+    .otp-digits {
+      gap: 0.7rem;
+      padding-bottom: 1.5rem;
+    }
+
+    .otp-input {
+      width: 45px;
+      height: 50px;
+      text-align: center;
+      font-size: 24px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 4rem;
+    }
+
+    .start-text {
+      text-align: center;
+      margin-top: 1rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .otp-container {
+      padding: 1rem;
+      .otp-btn-container{
+        padding: 1rem;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .otp-container {
+      padding: 0.2rem;
+      .otp-btn-container{
+        padding: 0.2rem;
+      }
+    }
+  }
+}
